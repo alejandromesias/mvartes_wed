@@ -1,16 +1,24 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@font-face {
+  font-family: 'AmarilloFont';
+  src: url('/assets/Amarillo.ttf') format('truetype');
+  src: url('/assets/Amarillo.otf') format('opentype');
+}
+
 .navbar-default {
     background-color: #3b5c9b;
 }
 
 
+
+
 #logo {
   float: left;
-  font-size: 1.7em;
+  font-size: 1.6em;
   color: #ffefd8;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-weight: bold;
+  font-family: 'AmarilloFont', Georgia;
+  //letter-spacing: -1px;
+  font-weight: 400;
 }
